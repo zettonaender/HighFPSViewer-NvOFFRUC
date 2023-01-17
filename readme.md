@@ -17,6 +17,7 @@ Some useful features:
 
 ## Compiling
 To change the scaling or source number, you'll have to compile the program yourself using Visual Studio and Nvidia Optical Flow SDK 4.0.
+
 You can change them in the "game.h" file under "Important Variables".
 
 1. Change "monitorIndex" to the source monitor's number (you can check it with OBS).
