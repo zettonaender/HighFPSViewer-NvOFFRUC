@@ -1,0 +1,20 @@
+﻿  Game.cpp
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(100,41): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(63,10): warning C4189: 'context': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(89,14): warning C4189: 'hr': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(117,14): warning C4189: 'hr': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(234,83): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(235,73): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(240,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(241,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(339,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(340,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(442,10): warning C4189: 'status': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(495,10): warning C4189: 'status': local variable is initialized but not referenced
+  Main.cpp
+  Generating Code...
+  CleanProject.vcxproj -> C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Debug\CleanProject.exe

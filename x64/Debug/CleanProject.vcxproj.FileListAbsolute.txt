@@ -1,0 +1,2 @@
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProject\x64\Debug\CleanProject.exe
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Debug\CleanProject.exe

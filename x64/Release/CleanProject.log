@@ -1,0 +1,21 @@
+﻿  Game.cpp
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(113,18): warning C4244: 'argument': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(80,10): warning C4189: 'context': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(103,14): warning C4189: 'hr': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(126,14): warning C4189: 'hr': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(356,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(357,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(410,7): warning C4189: 'hr': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(457,10): warning C4189: 'status': local variable is initialized but not referenced
+C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(505,10): warning C4189: 'status': local variable is initialized but not referenced
+     Creating library C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Release\CleanProject.lib and object C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Release\CleanProject.exp
+  Generating code
+  3 of 601 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CleanProject.vcxproj -> C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Release\CleanProject.exe
