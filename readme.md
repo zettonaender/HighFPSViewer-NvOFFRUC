@@ -6,7 +6,8 @@ The release uses these settings:
 1. 0.5x resolution scaling.
 2. Source monitor is indexed 1 (number 2).
 
-If the monitor is not on the left, you can press F3 to toggle drawing of the cursor (a bit unstable).
+Use Alt+Enter for fullscreen.
+If the source monitor is not on the left, you can press F3 to toggle drawing of the cursor (a bit unstable).
 
 To change the scaling or source number, you'll have to compile the program yourself using Visual Studio.
 You can change them in the "game.h" file under "Important Variables".
