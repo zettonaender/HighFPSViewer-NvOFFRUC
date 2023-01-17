@@ -20,6 +20,7 @@
 #include <sstream>
 #include "PostProcess.h"
 #include <queue>
+#include <thread>
 
 // A basic game implementation that creates a D3D11 device and
 // provides a game loop.
@@ -84,6 +85,8 @@ public:
     ID3D11Texture2D* desktopTextureBGR = nullptr;                          //Released
     ID3D11Texture2D* lastFrame = nullptr;                                  //Released
     ID3D11Texture2D* renderTargetTexture = nullptr;                        //Released  
+    
+    int desktop_width = 1280, desktop_height = 720;
 
     // Function for Rendering
     bool GetFrame();
@@ -120,15 +123,15 @@ public:
     bool drawInterpolated = true;
 
     // Important Variables
-	int desktop_width=1280, desktop_height=720;
-    double fps = 120.f;
-	double frametime = 1.f / fps;
-    double resFactor=2;
-    
+    bool isOnTheLeft = true;
+    int monitorIndex = 1;
+    double resFactor = 2;
+
     // Timing Objects
     std::chrono::duration<double> sleepDuration = std::chrono::duration<double>(0);
     int totalcount = 0;
-
+    double fps = 120;
+    double frametime = 1.f / fps;
 private:
 
     void Render();

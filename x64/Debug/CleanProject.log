@@ -17,4 +17,5 @@ C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(442,10): w
 C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\Game.cpp(495,10): warning C4189: 'status': local variable is initialized but not referenced
   Main.cpp
   Generating Code...
+     Creating library C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Debug\CleanProject.lib and object C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Debug\CleanProject.exp
   CleanProject.vcxproj -> C:\Users\Gokha\Documents\1A_VSProjects\CleanProjectCleaning2\x64\Debug\CleanProject.exe

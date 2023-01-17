@@ -222,7 +222,7 @@ void Game::DrawFromSRV() {
     GetCursorPos(&cursorPos);
     
 	// Only draw cursor if it is inside the screen.
-    if (cursorPos.x < 0) {
+    if (cursorPos.x < 0 && isOnTheLeft) {
         
         //// Reset sleep duration if cursor is moving.
         //if (cursorPos.x != lastCursorPos.x || cursorPos.y != lastCursorPos.y) {
@@ -329,7 +329,7 @@ void Game::CreateDeviceDependentResources()
     // Initialize desktop duplication.
     CreateDXGIFactory1(__uuidof(IDXGIFactory1), (void**)&factory);
     factory->EnumAdapters1(0, &adapter);
-    adapter->EnumOutputs(1, &pOutput);
+    adapter->EnumOutputs(monitorIndex, &pOutput);
     pOutput->QueryInterface(__uuidof(IDXGIOutput1), (void**)&pOutput1);
     pOutput1->DuplicateOutput(device, &pDeskDupl);
     
@@ -338,6 +338,11 @@ void Game::CreateDeviceDependentResources()
     pDeskDupl->GetDesc(&outputDesc);
     desktop_width = outputDesc.ModeDesc.Width/resFactor;
     desktop_height = outputDesc.ModeDesc.Height/resFactor;
+    
+    // Set the framerate to double the source.
+    DXGI_RATIONAL refreshRate = outputDesc.ModeDesc.RefreshRate;
+    fps = refreshRate.Numerator / (double)refreshRate.Denominator * 2.f;
+    frametime = 1.0 / fps;
 
     // Initialize NvOFFRUC.
 
