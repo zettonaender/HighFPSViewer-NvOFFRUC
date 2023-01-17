@@ -275,12 +275,18 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         return MAKELRESULT(0, MNC_CLOSE);
 
     case WM_KEYDOWN:
-        if (wParam == VK_F2 && GetForegroundWindow() != hWnd)
+        if (wParam == VK_F2)
         {
             g_game->sleepDuration = std::chrono::duration<double>(0);
             g_game->totalcount = 0;
+
+            break;
         }
-        break;
+        if (wParam == VK_F3) {
+            g_game->isOnTheLeft = !g_game->isOnTheLeft;
+            
+            break;
+        }
     }
     
     return DefWindowProc(hWnd, message, wParam, lParam);
