@@ -7,18 +7,10 @@ With an RTX 2060, the performance is just enough for 120FPS with a 540p resoluti
 ## How to use
 You can try it out from the **Release** section (**requires Nvidia 2000 series or better**).
 
-The release uses these settings:
-1. **0.5x** (NvOFFRUCTest_Half.exe) or **1x** (NvOFFRUCTest_Full.exe) resolution scaling for performance reasons.
-2. Source monitor is indexed **1** (number 2).
-
-Some useful features:
+Remarks:
 1. Use Alt+Enter for fullscreen.
-2. Press F2 to disable mouse cursor drawing (use if the cursor is on the wrong position).
+2. Press F2 while focused to disable mouse cursor drawing.
+3. If you get performance issues, change the resolution scaling (can be decimal).
 
 ## Compiling
-To change the scaling or source number, you'll have to compile the program yourself using Visual Studio and Nvidia Optical Flow SDK 4.0.
-
-You can change them in the "game.h" file under "Important Variables".
-
-1. Change "monitorIndex" to the source monitor's number (you can check it with OBS).
-2. Change "resFactor" to the desired scaling (1 is full resolution, 2 is half, etc.) which can be a float. 
+Compiled using Visual Studio 2022 and Nvidia Optical Flow SDK 4.0 . You'll need access to the SDK through Nvidia Developer.
