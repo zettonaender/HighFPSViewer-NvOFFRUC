@@ -13,8 +13,7 @@ The release uses these settings:
 
 Some useful features:
 1. Use Alt+Enter for fullscreen.
-2. Press F2 to reset the sleep duration (use if you experience stutter, wait until the program get enough averages).
-3. Press F3 to disable mouse cursor drawing (use if the cursor is on the wrong position).
+2. Press F2 to disable mouse cursor drawing (use if the cursor is on the wrong position).
 
 ## Compiling
 To change the scaling or source number, you'll have to compile the program yourself using Visual Studio.
