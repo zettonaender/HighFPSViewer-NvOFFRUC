@@ -21,4 +21,4 @@ To change the scaling or source number, you'll have to compile the program yours
 You can change them in the "game.h" file under "Important Variables".
 
 1. Change "monitorIndex" to the source monitor's number (you can check it with OBS).
-2. Change "resFactor" to the desired scaling for performance reasons (1 is full resolution, 2 is half, etc).
+2. Change "resFactor" to the desired scaling for performance reasons (1 is full resolution, 2 is half, etc). Could be a float.
