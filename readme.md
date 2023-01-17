@@ -1,14 +1,18 @@
+
+## HighFPSViewer-NvOFFRUC
 An application that duplicates a second monitor and doubles the FPS with Nvidia Optical Flow (NvOFFRUC) API. Basically DLSS3 frame generation but with support from Turing onwards.
 
-You can try it out from the Release section (requires Nvidia 2000 series or better).
+## How to use
+You can try it out from the **Release** section (**requires Nvidia 2000 series or better**).
 
 The release uses these settings:
-1. 0.5x resolution scaling.
-2. Source monitor is indexed 1 (number 2).
+1. **0.5x** resolution scaling.
+2. Source monitor is indexed **1** (number 2).
 
 Use Alt+Enter for fullscreen.
 If the source monitor is not on the left, you can press F3 to toggle drawing of the cursor (a bit unstable).
 
+## Compiling
 To change the scaling or source number, you'll have to compile the program yourself using Visual Studio.
 You can change them in the "game.h" file under "Important Variables".
 
