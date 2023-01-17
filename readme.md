@@ -8,7 +8,7 @@ With an RTX 2060, the performance is just enough for 120FPS with a 540p resoluti
 You can try it out from the **Release** section (**requires Nvidia 2000 series or better**).
 
 The release uses these settings:
-1. **0.5x** resolution scaling.
+1. **0.5x** (NvOFFRUCTest_Half.exe) or **1x** (NvOFFRUCTest_Full.exe) resolution scaling.
 2. Source monitor is indexed **1** (number 2).
 
 Some useful features:
