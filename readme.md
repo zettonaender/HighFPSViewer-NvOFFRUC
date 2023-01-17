@@ -12,7 +12,8 @@ The release uses these settings:
 2. Source monitor is indexed **1** (number 2).
 
 Use Alt+Enter for fullscreen.
-If the source monitor is not on the left, you can press F3 to toggle drawing of the cursor (a bit unstable).
+Press F2 to reset the sleep duration (use if you experience stutter, wait until the program get enough averages).
+Press F3 to disable mouse cursor drawing (use if the cursor is on the wrong position).
 
 ## Compiling
 To change the scaling or source number, you'll have to compile the program yourself using Visual Studio.
