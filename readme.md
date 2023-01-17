@@ -16,7 +16,7 @@ Some useful features:
 2. Press F2 to disable mouse cursor drawing (use if the cursor is on the wrong position).
 
 ## Compiling
-To change the scaling or source number, you'll have to compile the program yourself using Visual Studio.
+To change the scaling or source number, you'll have to compile the program yourself using Visual Studio and Nvidia Optical Flow SDK 4.0.
 You can change them in the "game.h" file under "Important Variables".
 
 1. Change "monitorIndex" to the source monitor's number (you can check it with OBS).
